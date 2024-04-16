@@ -1,27 +1,29 @@
-# TullaveFrontend
+Proyecto Frontend Tullave Client
+Este proyecto contiene la interfaz de usuario para la aplicación Tullave. Para ejecutar este proyecto, sigue los pasos a continuación.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Requisitos previos
+Node.js 18.14.1
+Angular CLI 16
+Pasos para ejecutar el proyecto
+Clona este repositorio en tu máquina local:
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+git clone https://github.com/LgPJ/tullave-client.git
+Navega al directorio del proyecto:
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd tullave-client
+Instala las dependencias del proyecto:
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install
 
-## Running unit tests
+ng serve
+Accede a la aplicación en tu navegador:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+http://localhost:4200
 
-## Running end-to-end tests
+Para detener la aplicación, presiona Ctrl + C en la terminal donde se está ejecutando ng serve.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Proyecto Backend
+El proyecto backend correspondiente a esta aplicación se encuentra en el repositorio https://github.com/LgPJ/tullave-cl.git. Asegúrate de tener el backend en ejecución antes de utilizar esta aplicación.
