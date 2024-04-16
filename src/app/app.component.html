@@ -1,0 +1,49 @@
+<div class="container">
+  <form class="mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <label for="tullave">Ingrese el serial de tu tarjeta tullave</label>
+          <input type="text" class="form-control me-2" [(ngModel)]="card" [ngModelOptions]="{standalone: true}" id="tullave">    
+        </div>
+      </div>
+      <button class="btn btn-primary mt-2" (click)="consult(card)">Consulta</button>
+  </form>
+
+
+  <form class="mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <label for="name">Nombre de propietario</label>
+          <input type="text" class="form-control me-2" id="name" placeholder="Nombre completo del propietario" [value]="fullName" disabled="true">    
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <label for="perfil">Perfil</label>
+          <input type="text" class="form-control me-2" id="perfil" placeholder="Perfil de la tarjeta" [value]="profile" disabled="true">    
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <label for="saldo">Saldo</label>
+        <div class="input-group mb-2 mr-sm-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">$</div>
+          </div>
+          <input type="text" class="form-control" id="saldo" [value]="balance" disabled="true">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="saldoVirtual">Saldo Virtual</label>
+        <div class="input-group mb-2 mr-sm-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">$</div>
+          </div>
+          <input type="text" class="form-control" id="saldoVirtual" placeholder="0" [value]="virtualBalance" disabled="true">
+        </div>
+        
+      </div>
+    </div>
+  </form>
+
+</div>
