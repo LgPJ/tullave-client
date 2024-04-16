@@ -1,4 +1,8 @@
 <div class="container">
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+<div class="container">
   <form class="mt-5">
     <div class="row">
       <div class="col-md-12">
