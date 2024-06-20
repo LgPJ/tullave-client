@@ -1,29 +1,17 @@
-Proyecto Frontend Tullave Client
-Este proyecto contiene la interfaz de usuario para la aplicación Tullave. Para ejecutar este proyecto, sigue los pasos a continuación.
+Frontend (Angular)
+
+Descripción
+Este proyecto es una aplicación web desarrollada en Angular que permite enviar notificaciones a los estudiantes seleccionando la lista correspondiente y escribiendo un mensaje. Se comunica con el backend a través de peticiones HTTP para enviar las notificaciones.
 
 Requisitos previos
-Node.js 18.14.1
-Angular CLI 16
-Pasos para ejecutar el proyecto
-Clona este repositorio en tu máquina local:
 
+Node.js y npm
 
-git clone https://github.com/LgPJ/tullave-client.git
-Navega al directorio del proyecto:
+Instalación
+Clonar el repositorio: git clone https://github.com/LgPJ/tullave-client.git
+Navegar al directorio del proyecto: cd proyecto-frontend
+Instalar las dependencias: npm install
+Iniciar la aplicación: npm start
 
-
-cd tullave-client
-Instala las dependencias del proyecto:
-
-
-npm install
-
-ng serve
-Accede a la aplicación en tu navegador:
-
-http://localhost:4200
-
-Para detener la aplicación, presiona Ctrl + C en la terminal donde se está ejecutando ng serve.
-
-Proyecto Backend
-El proyecto backend correspondiente a esta aplicación se encuentra en el repositorio https://github.com/LgPJ/tullave-cl.git. Asegúrate de tener el backend en ejecución antes de utilizar esta aplicación.
+Uso
+La aplicación mostrará un formulario donde puedes seleccionar la lista de estudiantes y escribir el mensaje de la notificación. Al hacer clic en el botón "Enviar Notificación", se enviará la notificación al backend.

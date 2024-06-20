@@ -1,5 +1,5 @@
 {
-  "name": "tullave-frontend",
+  "name": "notification-frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
